@@ -53,7 +53,7 @@ Since this repository contains source files only, you must create a project envi
     * Select the device: **AVR128DB48**.
 
 2.  **Import the Code:**
-    * Open the `main.c` file from the specific exercise folder in this repository (e.g., `Project_2/Traffic_Light/main.c`).
+    * Open the `main*.c` file from the specific exercise folder in this repository (e.g., `Project_2/Traffic_Light/main_traffic_light.c`).
     * Copy the entire content.
     * Paste it into the `main.c` of your newly created Microchip Studio project.
 
