@@ -42,6 +42,13 @@ The most advanced project, combining analog sensors with serial data logging.
 * **USART_Internal_Temperature:** Reads the chip's internal temperature sensor (`ADC_MUXPOS_TEMPSENSE_gc`), applies factory calibration data (`SIGROW`), and logs the temperature to a PC via UART every second.
 * **USART_RGB-LED_Control:** Controlling hardware via serial commands.
 
+### 5. 🎨 Project: RGB_Color_Sensor
+**New Addition!** Focuses on interfacing advanced digital sensors via I2C.
+* **RGB_Color_Sensor:** *[Featured Code]* A driver for the **TCS34725** Color Sensor.
+    * **I2C Protocol:** Implements manual register writing/reading.
+    * **Auto-Increment:** Uses the command bit (`0x20`) to efficiently read multi-byte RGBA data in a single I2C transaction.
+    * **Hex Display:** Formats the 16-bit color data into Hexadecimal strings for the LCD.
+
 ## 🚀 How to Use
 
 Since this repository contains source files only, you must create a project environment on your local machine to run them.
